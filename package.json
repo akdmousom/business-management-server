@@ -1,0 +1,23 @@
+{
+  "name": "Stock_Management_Server_With_TypeScript",
+  "version": "1.0.0",
+  "description": "This server made by express js along with typeScript",
+  "main": "index.js",
+  "author": "Arijit Kumar Das & Priyanka Das Dipa",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "concurrently \" tsc -w\" \" nodemon dist/index.js\" "
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  }
+}
