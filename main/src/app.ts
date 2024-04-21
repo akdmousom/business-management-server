@@ -5,7 +5,7 @@ const port = 5000;
 
 
 
-app.get('/helth', async(req:Request,res:Response)=>{
+app.get('/health', async(req:Request,res:Response)=>{
     res.send('Server is running...❤❤')
 })
 
